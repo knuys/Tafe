@@ -206,13 +206,10 @@ footer a {
     width: 400px;
 }
 
-form ul {
-    list-style-type: none;
-}
-
 form li {
     padding: 1em 0 0;
     font-weight: bold;
+    list-style-type: none;
 }
 .contact-form h2 {
     text-align: center;

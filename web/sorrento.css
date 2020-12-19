@@ -1,0 +1,235 @@
+header {
+display: flex;
+justify-content: center;
+}
+
+
+body {
+    font-size: 16px;
+    font-family: Helvetica, Calibri, sans-serif;
+    color: black;
+    background-color: #4d1d18;
+    
+}
+
+.navbar {
+    margin: auto;
+    background-color: #ffffff;
+    width: 1000px;
+    padding: .75em 0 .75em 0 ;
+    font-size: 24px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+a.current-pg {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #4d1d18;
+    
+}
+
+a:visited {
+    color: #8C2155;
+
+}
+
+a:hover {
+    color: #555;
+    font-style: italic;
+}
+
+a:active {
+    color: #1AC8ED;
+}
+
+main {
+    margin: 2em;
+}
+
+main a {
+    text-decoration: none;
+    color: #87423c;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+
+.welcome-image {
+    display: flex;
+    justify-content: center;
+}
+.welcome-image h1 {
+    position: absolute;
+    top: 340px;
+    left: 200px;
+    text-shadow: 3px 3px #000000;
+    
+}
+
+.content-box {
+    background-color: white;
+    width: 935px;
+    margin: 40px auto;
+    padding: 2em;
+}
+
+.content-box img {
+    max-width: 400px;
+    display: block;
+    margin: 10% auto;
+
+}
+.product-col {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.product-col img {
+    width: 25em;
+}
+
+.col {
+    width:30em;
+    padding: 0 1em 0 1em;
+    margin: 0 1em 0 1em;
+}
+
+.box-col {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.box {
+    width:15em;
+    padding: 1em;
+    text-align: center;
+}
+
+
+h1 {
+    color: #87423c;
+    font-size: 36px;
+}
+
+h2 {
+    color: #4d1d18; 
+    font-size: 24px;
+}
+
+
+
+p {
+    line-height: 150%;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #c7948e;
+    color: #87423c;
+    width: 100%;
+    padding: .75em 0 .75em 0;
+}
+
+footer a:hover {
+color:#555;
+font-style:italic;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+footer a {
+    padding: .75em;
+    text-decoration: none;
+    color: #87423c;
+}
+
+.copyright {
+    padding: .75em;
+
+}
+/* Index */
+
+.testimonials p {
+    padding: 3.2em 0 0 0;
+}
+
+.content-box button {
+    display: block;
+    margin: 15px auto auto;
+}
+
+/* Book Now button */
+.button {
+    background-color: #87423c; /* Brown */
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #555;
+    font-style: italic;
+}
+
+/* Contact Page */
+
+#comment {
+    height: 300px;
+    width: 400px;
+}
+
+form ul {
+    list-style-type: none;
+}
+
+form li {
+    padding: 1em 0 0;
+    font-weight: bold;
+}
+.contact-form h2 {
+    text-align: center;
+}
+
+.product-col h2 {
+    text-align: left;
+}
+
+#long-book-button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 300px;
+}
+
+/* Contact Page */
+.bold-subheading {
+    font-weight: bold;
+}

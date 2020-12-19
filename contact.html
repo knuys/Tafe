@@ -76,41 +76,51 @@
                     <div class="product-col">
                         <div class="col">
                             <div class="container">
-                                <div class="contact-details">
-                                    <li><label for="title">Title: </label></li>
-                                    <input type="text" id="title" name="title" placeholder="Mr/Mrs..">
+                                <ul class="contact-details">
+                                    <li><label for="title">Title: </label>
+                                        <input type="text" id="title" name="title" placeholder="Mr/Mrs..">
+                                    </li>
 
-                                    <li><label for="name">Name: </label></li><input type="text" id="name" name="name"
-                                        placeholder="Type your name.." required>
 
-                                    <li><label for="email">Email: </label></li><input type="email" id="email"
-                                        name="email" placeholder="Type your email.." required>
+                                    <li><label for="name">Name: </label>
+                                        <input type="text" id="name" name="name" placeholder="Type your name.."
+                                            required>
+                                    </li>
+                                    <li><label for="email">Email: </label>
+                                        <input type="email" id="email" name="email" placeholder="Type your email.."
+                                            required>
+                                    </li>
+                                    <li><label for="phone">Phone: </label>
+                                        <input type="number" id="phone" name="phone"
+                                            placeholder="Enter your phone number..">
+                                    </li>
 
-                                    <li><label for="phone">Phone: </label></li><input type="number" id="phone"
-                                        name="phone" placeholder="Enter your phone number..">
+                                    <li><label for="state">State: </label>
+                                        <select id="state" name="state">
+                                            <option value="NSW">NSW</option>
+                                            <option value="Victoria">Victoria</option>
+                                            <option value="Queensland">QLD</option>
+                                            <option value="Tasmania">Tasmania</option>
+                                            <option value="NT">NT</option>
+                                            <option value="WA">WA</option>
+                                            <option value="SA">SA</option>
+                                            <option value="ACT">ACT</option>
+                                            <option value="Torress">Torres Strait</option>
+                                            <option value="intl">International</option>
+                                        </select>
+                                    </li>
 
-                                    <li><label for="state">State: </label></li>
-                                    <select id="state" name="state">
-                                        <option value="NSW">NSW</option>
-                                        <option value="Victoria">Victoria</option>
-                                        <option value="Queensland">QLD</option>
-                                        <option value="Tasmania">Tasmania</option>
-                                        <option value="NT">NT</option>
-                                        <option value="WA">WA</option>
-                                        <option value="SA">SA</option>
-                                        <option value="ACT">ACT</option>
-                                        <option value="Torress">Torres Strait</option>
-                                        <option value="intl">International</option>
-                                    </select>
-                                    <li> <label for="query">Query: </label></li>
-                                    <select id="query" name="query" required>
-                                        <option value="" disabled selected>Select query type</option>
-                                        <option value="booking">Booking Request</option>
-                                        <option value="services">Services</option>
-                                        <option value="feedback">Feedback</option>
-                                        <option value="other">Other</option>
-                                    </select>
-                                </div>
+                                    <li> <label for="query">Query: </label>
+                                        <select id="query" name="query" required>
+                                            <option value="" disabled selected>Select query type</option>
+                                            <option value="booking">Booking Request</option>
+                                            <option value="services">Services</option>
+                                            <option value="feedback">Feedback</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </li>
+
+                                </ul>
                             </div>
                         </div>
                         <div class="col">
